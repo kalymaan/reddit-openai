@@ -1,34 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Reddit ChatGPT Bot Detection
+# Reddit ChatGPT Bot Detection
 Kalyan 'Arjun' Lakshmanan
 
 __
 
-Here is my project submission for GA's DSI fellowship. 
-
-Each notebook will have a detailed summary and walkthrough of my process. CSV data files are in the data folders and the notebooks that generate them give a good decription of the datasets. 
-
-For this project, I'm pretending to be a DS consultant hired by Reddit to improve bot detection amongst the userbase. **The Executive Summary is below the File structure.**
-
-*Go through notebooks in order listed below*
-
-### File structure:
-
-- Notebooks
-    - reddit_data_collection.ipynb
-        - Explanation and execution of reddit question-answer pair scraping
-    - openai_data_collection.ipynb
-        - Explanation and execution of chatgpt response generation
-    - data_cleaning_exploration.ipynb
-        - Thorough cleaning/EDA of data. Preparing and generating a datset for modelling
-    - data_modelling.ipynb
-        - Modelling and metric exploration
-- Data
-    - reddit_questions1-5.csv - csvs generated from reddit scraping
-    - gpt_answersv1-3.csv - csvs generated from openai data collection
-    - cleaned_q_a_data.csv - CSV with full question and human/ai answers
-    - model_ready_data.csv - csv that is used for all modelling
-    
-    
 ### Executive Summary
 
 In the age of digital communities, Reddit stands as a vibrant hub for diverse discussions. Yet, a shadow looms over this platform in the form of automated bots, jeopardizing the authenticity and trustworthiness of user interactions. As a seasoned data science consultant, I present a potent solution that promises to address this pressing issue effectively.
@@ -55,6 +29,28 @@ These are the subreddits I scraped from with the percentage of data from each:
    - AskMen                 0.026636
    - relationship_advice    0.013385
    - AskWomen               0.012582
+
+*Go through notebooks in order listed below*
+
+### File structure:
+
+- Notebooks
+    - reddit_data_collection.ipynb
+        - Explanation and execution of reddit question-answer pair scraping
+    - openai_data_collection.ipynb
+        - Explanation and execution of chatgpt response generation
+    - data_cleaning_exploration.ipynb
+        - Thorough cleaning/EDA of data. Preparing and generating a datset for modelling
+    - data_modelling.ipynb
+        - Modelling and metric exploration
+- Data
+    - reddit_questions1-5.csv - csvs generated from reddit scraping
+    - gpt_answersv1-3.csv - csvs generated from openai data collection
+    - cleaned_q_a_data.csv - CSV with full question and human/ai answers
+    - model_ready_data.csv - csv that is used for all modelling
+    
+    
+
 
 The time has come to unite our efforts and take a stand against the encroaching bots on Reddit. Together, we can usher in a new era of trust and authenticity, reaffirming Reddit's status as a beacon of genuine online community. Let's embark on this journey and secure the future of Reddit, where human voices reign supreme.
     
